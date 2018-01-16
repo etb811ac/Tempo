@@ -1,0 +1,42 @@
++vSpacer(28)
+tr
+	td
+		table(class="mobile-hide")
+			tr
+				td
+					img(src=img_path+"secondaryImg.png")
+				+hSpacer(30)
+				td
+					table
+						tr
+							td(class="title").
+								Your Heading Goes Here
+						+vSpacer(30)
+						tr
+							td(class="text").
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+						+vSpacer(20)
+						tr
+							td
+								a(href="#")
+									img(src=img_path+"learnMoreBtn.png")
+		table(width="100%" class="mobile-show")
+			tr
+				td
+					table(width="100%")&attributes(tableAtt)
+						tr
+							td(class="title center-text").
+								Your Heading Goes Here
+						+vSpacer(10)
+						tr
+							td(class="center-text")
+								img(src=img_path+"secondaryImg.png")
+						+vSpacer(5)
+						tr
+							td(class="text center-text").
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+						+vSpacer(20)
+						tr
+							td(class="center-text")
+								a(href="#")
+									img(src=img_path+"learnMoreBtn.png")
